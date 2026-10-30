@@ -1,5 +1,4 @@
 # Doodle-Dash---Draw-Guess
-
 A real-time multiplayer drawing and guessing game built with React, TypeScript, Express, Socket.IO, and the HTML canvas API. Create rooms, draw, guess, score points, and compete with friends online.
 
 ## Game description
