@@ -1,0 +1,37 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "Doodle Dash Server",
+  "dateExported": "2026-10-30T08:45:00.000Z",
+  "version": "1.2",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "health-check",
+      "colId": "doodle-dash-server",
+      "containerId": "",
+      "name": "Health check",
+      "url": "http://localhost:3001/api/health",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2026-10-30T08:45:00.000Z",
+      "modified": "2026-10-30T08:45:00.000Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "public-rooms",
+      "colId": "doodle-dash-server",
+      "containerId": "",
+      "name": "List public rooms",
+      "url": "http://localhost:3001/api/rooms",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2026-10-30T08:45:00.000Z",
+      "modified": "2026-10-30T08:45:00.000Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    }
+  ]
+}
